@@ -32,7 +32,7 @@ In addition to the curve-fitting analysis, the measured voltage, current, and po
 /* Insert images here with descriptions */
 ---
 
-# Results
+## Results
 
 /* insert results here with descriptions, including images*/ 
 ---
