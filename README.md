@@ -1,15 +1,11 @@
 <p align="right">
-# Battery Charging Profile Modeling and Analysis
--- 
+## Battery Charging Profile Modeling and Analysis
 Use MATLAB to model a lithium battery-charging profile
 </p> 
 
 <p align="left">
 <img src="images/battery-banner.jpg" width="300">
 </p>
-<p align="right">
-Use MATLAB to model a lithium battery-charging profile
-</p> 
 
 ## Project Description
 
