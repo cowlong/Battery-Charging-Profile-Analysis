@@ -11,15 +11,16 @@ The primary objectives of this project were to:
 - Apply numerical differentiation and integration
 - Visualize battery behavior using MATLAB
 
+### Goal
+The primary goal of this project was to model and analyze the charging profile of a lithium-ion battery using MATLAB. The experimental battery data is analyzed through curve fitting, numerical differentiation, and numerical integration to evaluate charging performance, energy delivery, voltage change, and resistive losses. The resulting models and visualizations provide insight into battery charging dynamics and demonstrate the application of engineering analysis as well as engineering techniques to real-world electrical systems. 
+
 # Mathematical Model
-
-The battery charging profile is modeled as a first-order RC charging circuit:
-
+A first-order RC circuit was used to approximate the charging characteristics of a lithium-ion battery. The voltage profile was modeled using the exponential charging equation
 <p align="center">
 
-\[
+'''math
 V(t)=V_{max}\left(1-e^{-t/(RC)}\right)
-\]
+'''
 
 </p>
 
@@ -33,11 +34,6 @@ Where
 | \(C\) | Equivalent capacitance |
 | \(RC\) | Time constant |
 
----
-
-### Goal
-
-Visualize battery charging behavior.
 
 Three MATLAB subplots were created:
 
