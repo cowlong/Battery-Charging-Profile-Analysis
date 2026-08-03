@@ -19,7 +19,7 @@ A first-order RC circuit was used to approximate the charging characteristics of
 <p align="center">
 
 $$
-V(t)=V_{max}\left(1-e^{-t/(RC)}\right)
+V(t)=V_{\text{max}}\left(1-e^{-t/(RC)}\right)
 $$
 
 </p>
