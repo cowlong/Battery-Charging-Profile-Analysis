@@ -104,7 +104,7 @@ This project demonstrates the application of:
 
 | Name | School | Major |
 |-------|-------|-------|
-| Name | School | Major |
-| Name | School | Major |
-| Name | School | Major |
-| Name | School | Major |
+| - | - | - |
+| - | - | - |
+| - | - | - |
+| - | - | - |
