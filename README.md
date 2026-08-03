@@ -37,13 +37,13 @@ In addition to the curve-fitting analysis, the measured voltage, current, and po
 
 /* Insert images here with descriptions */
 
----
+
 
 ## Results
 
 /* insert results here with descriptions, including images*/ 
 
----
+
 
 ### Deliverables
 
@@ -68,12 +68,12 @@ Using the estimations of these equations and MATLAB tools, our results output th
 | Resistive Energy Loss | _ J |
 | R² Value | _ |
 
----
+
 
 ## Future Improvements
 /* edit */
 
----
+
 /* note for later, delete in final */
 
 matlab tools used:
