@@ -23,7 +23,6 @@ V(t)=V_{\text{max}}\left(1-e^{-t/(RC)}\right)
 $$
 
 </p>
-
 where V_{\text{max}} is the maximum battery voltage and RC represents the system time constant. MATLAB's Curve Fitting Toolbox was used to determine the equivalent resistance and capacitance that best matched the battery data that was measured. 
 
 In addition to the curve-fitting analysis, the measured voltage, current, and power data were visualized using MATLAB subplots. These plots illustrate the evolution of the charging cycle and they provide a foundation for calculating voltage rates of change, total energy delivered, charging times, and resistive losses. 
@@ -46,10 +45,6 @@ The fitted exponential model was overlaid on the voltage plot for comparison.
 - Exponential charging curve
 - Experimental data comparison
 - Goodness-of-fit metrics
-
-<p align="center">
-<img src="images/curvefit.png" width="700">
-</p>
 
 Using calculus and electrical engineering principles to evaluate charging performance.. 
 - \frac{dV}{dT} , used to determine how quickly the battery voltage changes during charging
