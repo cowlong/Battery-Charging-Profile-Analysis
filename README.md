@@ -69,8 +69,9 @@ Using the estimations of these equations and MATLAB tools, our results output th
 | R² Value | _ |
 
 ---
+
 ## Future Improvements
-* edit *
+/* edit */
 
 ---
 /* note for later, delete in final */
