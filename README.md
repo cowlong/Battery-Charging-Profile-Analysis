@@ -1,7 +1,7 @@
 <table>
 <tr>
 <td width="20% align="center">
-<img src="Battery-banner.jpg" width="180">
+<img src="Images/Battery-banner.jpg" width="180">
 </td>
 
 <td width="80%">
