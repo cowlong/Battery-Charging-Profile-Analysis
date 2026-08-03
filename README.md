@@ -35,57 +35,9 @@ Where
 
 ---
 
-# Project Workflow
-
+# Results
+/* insert results here with descriptions, including images*/ 
 ---
-
-# Step 1 — Project Initialization & Data Loading
-
-### Goal
-
-Prepare the MATLAB environment and isolate the battery charging data.
-
-### Tasks Completed
-
-- Loaded the provided lithium-ion battery dataset
-- Extracted:
-  - Time
-  - Voltage
-  - Current
-  - Power
-- Isolated a single charging cycle
-- Determined the maximum battery voltage
-- Verified the dataset contained no invalid or missing values
-- Confirmed sampling intervals for later numerical calculations
-
----
-
-# Step 2 — Establish the Mathematical Model
-
-### Goal
-
-Fit an RC charging model to the experimental battery data.
-
-The charging equation used was
-
-\[
-V(t)=V_{max}\left(1-e^{-t/(RC)}\right)
-\]
-
-### Tasks Completed
-
-- Imported voltage vs. time data into MATLAB Curve Fitting Toolbox
-- Performed nonlinear exponential curve fitting
-- Determined:
-
-  - Equivalent Resistance (R)
-  - Equivalent Capacitance (C)
-  - RC Time Constant
-
-- Evaluated model quality using:
-
-  - R²
-  - Goodness-of-fit statistics
 
 ### Deliverables
 
