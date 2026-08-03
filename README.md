@@ -35,6 +35,22 @@ Where
 
 ---
 
+### Goal
+
+Visualize battery charging behavior.
+
+Three MATLAB subplots were created:
+
+- Voltage vs Time
+- Current vs Time
+- Power vs Time
+
+The fitted exponential model was overlaid on the voltage plot for comparison.
+
+/* Insert images here with descriptions */
+
+---
+
 # Results
 /* insert results here with descriptions, including images*/ 
 ---
@@ -49,88 +65,12 @@ Where
 <img src="images/curvefit.png" width="700">
 </p>
 
----
+Using calculus and electrical engineering principles to evaluate charging performance.. 
+- \frac{dV}{dT} , used to determine how quickly the battery voltage changes during charging
+- E = \int P(t)\,dt , used to calculate the total energy being delivered
+- P=I^2R , used to calculate estimated resistive loss
 
-# Step 3 — Data Visualization
-
-### Goal
-
-Visualize battery charging behavior.
-
-Three MATLAB subplots were created:
-
-- Voltage vs Time
-- Current vs Time
-- Power vs Time
-
-The fitted exponential model was overlaid on the voltage plot for comparison.
-
-<p align="center">
-<img src="images/subplots.png" width="850">
-</p>
-
----
-
-# Step 4 — Analytical Computations
-
-### Goal
-
-Use calculus and electrical engineering principles to evaluate charging performance.
-
-### Numerical Differentiation
-
-MATLAB's
-
-```matlab
-gradient()
-```
-
-was used to calculate
-
-\[
-\frac{dV}{dt}
-\]
-
-to determine how quickly the battery voltage changes during charging.
-
----
-
-### Numerical Integration
-
-MATLAB's
-
-```matlab
-trapz()
-```
-
-was used to calculate the total energy delivered:
-
-\[
-E=\int P(t)\,dt
-\]
-
----
-
-### Performance Metrics
-
-The following values were computed:
-
-- Time to reach 80% charge
-- Time to reach 100% charge
-- Maximum charging voltage
-- Total energy delivered
-- Voltage rate of change
-- Internal resistive losses
-
-Resistive losses were estimated using
-
-\[
-P=I^2R
-\]
-
----
-
-# 📊 Results Summary
+Using the estimations of these equations and MATLAB tools, our results output the values in the table below. 
 
 | Metric | Value |
 |---------|---------|
@@ -144,21 +84,9 @@ P=I^2R
 
 ---
 
-# Step 5 — Final Validation
+/* note for later, delete in final */
 
-Before submission, the project was reviewed to ensure:
-
-- MATLAB code executed without errors
-- Figures were properly labeled
-- Units were verified
-- Curve fitting matched experimental data
-- Calculations were physically reasonable
-- Code was well-commented and organized
-
----
-
-# 📈 MATLAB Techniques Used
-
+matlab tools used:
 - Curve Fitting Toolbox
 - Numerical Integration (`trapz`)
 - Numerical Differentiation (`gradient`)
@@ -168,31 +96,7 @@ Before submission, the project was reviewed to ensure:
 - Matrix Operations
 - Vectorized Calculations
 
----
-
-# 📂 Repository Structure
-
-```
-Battery-Charging-Project
-│
-├── BatteryCharging_StudentProjectTemplate.mlx
-├── batteryAnalysis.m
-├── README.md
-│
-├── images
-│   ├── battery-banner.jpg
-│   ├── curvefit.png
-│   ├── subplots.png
-│   └── summary.png
-│
-└── data
-    └── BatteryDataset.mat
-```
-
----
-
-# 🎯 Learning Outcomes
-
+learning outcomes: 
 This project demonstrates the application of:
 
 - MATLAB programming
@@ -203,10 +107,7 @@ This project demonstrates the application of:
 - Data visualization
 - Engineering data analysis
 
----
-
-# Future Improvements
-
+Future Improvements:
 Possible extensions include:
 
 - CC-CV charging phase identification
@@ -215,22 +116,14 @@ Possible extensions include:
 - Fast charging comparisons
 - Battery temperature analysis
 - Multi-stage charging optimization
+/* end of note, delete in final */
 
----
-
-# Technologies Used
-
-- MATLAB
-- MATLAB Live Scripts
-- Curve Fitting Toolbox
-- Numerical Methods
-- Electrical Circuit Modeling
-
----
 
 # Authors
 
 | Name | Major |
 |------|-------|
-| Your Name | Electrical Engineering |
-| Partner Name | Electrical Engineering |
+| Name | Major |
+| Name | Major |
+| Name | Major |
+| Name | Major |
