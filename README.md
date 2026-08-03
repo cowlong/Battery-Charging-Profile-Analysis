@@ -1,8 +1,19 @@
 <table>
 <tr>
 <td width="20% align="center">
-<img src="Battery
+<img src="Battery-banner.jpg" width="180">
+</td>
 
+<td width="80%">
+
+<h1>Battery Charging Profile Modeling and Analysis</h1>
+
+<p>
+Use MATLAB to model a lithium-ion battery charging profile using an RC circuit analog, curve fitting, numerical integration, and engineering analysis
+</p>
+</td>
+</tr>
+</table>
 
 ## Project Description
 
