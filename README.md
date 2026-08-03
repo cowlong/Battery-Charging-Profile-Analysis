@@ -1,7 +1,7 @@
 # Battery Charging Profile Modeling and Analysis
 
 <p align="left">
-<img src="images/battery-banner.jpg" width="500">
+<img src="images/battery-banner.jpg" width="300">
 </p>
 
 ## Overview
