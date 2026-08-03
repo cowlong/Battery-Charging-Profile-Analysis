@@ -102,9 +102,9 @@ This project demonstrates the application of:
 
 ## Authors
 
-| Name | Major |
-|------|-------|
-| Name | Major |
-| Name | Major |
-| Name | Major |
-| Name | Major |
+| Name | School | Major |
+|-------|-------|-------|
+| Name | School | Major |
+| Name | School | Major |
+| Name | School | Major |
+| Name | School | Major |
