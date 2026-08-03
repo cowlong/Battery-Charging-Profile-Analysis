@@ -97,9 +97,6 @@ This project demonstrates the application of:
 - Data visualization
 - Engineering data analysis
 
-Future Improvements:
-* edit * 
-
 /* end of note, delete in final */
 
 
