@@ -100,7 +100,7 @@ This project demonstrates the application of:
 /* end of note, delete in final */
 
 
-# Authors
+## Authors
 
 | Name | Major |
 |------|-------|
