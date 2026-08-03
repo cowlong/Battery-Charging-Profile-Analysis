@@ -3,35 +3,20 @@
 <p align="left">
 <img src="images/battery-banner.jpg" width="300">
 </p>
+<p align="right">
+Use MATLAB to model a lithium battery-charging profile
+</p> 
 
-## Overview
+## Project Description
 
 This project models the charging behavior of a real lithium-ion battery using MATLAB. By representing the battery as a first-order RC circuit, the charging voltage is modeled with an exponential function and compared against experimental data using MATLAB's Curve Fitting Toolbox.
-
-The project also applies calculus and circuit analysis to determine:
-
-- Battery charging characteristics
-- Total energy delivered
-- Rate of voltage change
-- Charging efficiency
-- Resistive energy losses
-
----
-
-# 📖 Project Objectives
-
-The primary objectives of this project were to:
-
-- Model lithium-ion battery charging as an RC circuit
-- Fit an exponential charging equation to real battery data
+The primary objectives of this project were to: 
+- Model lithium-ion battery charging as an RC circuit through exponential charging equations to real battery data
 - Analyze voltage, current, and power over time
 - Apply numerical differentiation and integration
-- Calculate charging performance metrics
 - Visualize battery behavior using MATLAB
 
----
-
-# ⚡ Mathematical Model
+# Mathematical Model
 
 The battery charging profile is modeled as a first-order RC charging circuit:
 
@@ -55,7 +40,7 @@ Where
 
 ---
 
-# 🛠 Project Workflow
+# Project Workflow
 
 ---
 
@@ -77,10 +62,6 @@ Prepare the MATLAB environment and isolate the battery charging data.
 - Determined the maximum battery voltage
 - Verified the dataset contained no invalid or missing values
 - Confirmed sampling intervals for later numerical calculations
-
-### Output
-
-✅ Clean battery dataset ready for analysis
 
 ---
 
