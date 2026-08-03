@@ -107,4 +107,4 @@ This project demonstrates the application of:
 | - | - | - |
 | - | - | - |
 | - | - | - |
-| - | - | - |
+| Karen Portillo | UC Irvine | Electrical Engineering |
