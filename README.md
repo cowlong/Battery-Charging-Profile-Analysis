@@ -18,9 +18,9 @@ The primary goal of this project was to model and analyze the charging profile o
 A first-order RC circuit was used to approximate the charging characteristics of a lithium-ion battery. The voltage profile was modeled using the exponential charging equation
 <p align="center">
 
-'''math
+$$
 V(t)=V_{max}\left(1-e^{-t/(RC)}\right)
-'''
+$$
 
 </p>
 
