@@ -1,7 +1,7 @@
-# 🔋 Battery Charging Profile Modeling and Analysis
+# Battery Charging Profile Modeling and Analysis
 
-<p align="center">
-<img src="images/battery-banner.jpg" width="800">
+<p align="left">
+<img src="images/battery-banner.jpg" width="500">
 </p>
 
 ## Overview
