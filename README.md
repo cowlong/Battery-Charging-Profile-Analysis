@@ -52,13 +52,13 @@ Using the estimations of these equations and MATLAB tools, our results output th
 
 | Metric | Value |
 |---------|---------|
-| Maximum Voltage | XX V |
-| RC Time Constant | XX s |
-| Time to 80% Charge | XX s |
-| Time to Full Charge | XX s |
-| Total Energy Delivered | XX J |
-| Resistive Energy Loss | XX J |
-| R² Value | XX |
+| Maximum Voltage | _ V |
+| RC Time Constant | _ s |
+| Time to 80% Charge | _ s |
+| Time to Full Charge | _ s |
+| Total Energy Delivered | _ J |
+| Resistive Energy Loss | _ J |
+| R² Value | _ |
 
 ---
 
