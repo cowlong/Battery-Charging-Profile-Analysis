@@ -52,6 +52,7 @@ The fitted exponential model was overlaid on the voltage plot for comparison.
 ---
 
 # Results
+
 /* insert results here with descriptions, including images*/ 
 ---
 
@@ -108,14 +109,8 @@ This project demonstrates the application of:
 - Engineering data analysis
 
 Future Improvements:
-Possible extensions include:
+* edit * 
 
-- CC-CV charging phase identification
-- Separate modeling of Constant Current and Constant Voltage regions
-- Simscape Battery simulations
-- Fast charging comparisons
-- Battery temperature analysis
-- Multi-stage charging optimization
 /* end of note, delete in final */
 
 
