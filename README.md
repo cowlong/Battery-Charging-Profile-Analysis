@@ -23,7 +23,7 @@ V(t)=V_{\text{max}}\left(1-e^{-t/(RC)}\right)
 $$
 
 </p>
-where $V_{\text{max}}$ is the maximum battery voltage and RC represents the system time constant. MATLAB's Curve Fitting Toolbox was used to determine the equivalent resistance and capacitance that best matched the battery data that was measured. 
+where $V_{max}$ is the maximum battery voltage and RC represents the system time constant. MATLAB's Curve Fitting Toolbox was used to determine the equivalent resistance and capacitance that best matched the battery data that was measured. 
 
 In addition to the curve-fitting analysis, the measured voltage, current, and power data were visualized using MATLAB subplots. These plots illustrate the evolution of the charging cycle and they provide a foundation for calculating voltage rates of change, total energy delivered, charging times, and resistive losses. 
 
