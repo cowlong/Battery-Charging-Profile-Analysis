@@ -84,7 +84,9 @@ The MATLAB trapz function was used to approximate the area under the power-time 
 
 Estimated resistive energy loss was calculated using the measured current and the battery's internal resistance.
 
-### Deliverables
+---
+
+### Results
 
 - Exponential charging curve
 - Experimental data comparison
