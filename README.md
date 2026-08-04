@@ -51,6 +51,16 @@ The lithium-ion battery cycling data provided by MathWorks was loaded into MATLA
 
 The charging portion of the cycle was isolated using the measured current, with positive current representing the charging phase. The corresponding time, voltage, and current measurements were extracted for analysis. Time was converted to elapsed seconds beginning at (t=0) for the selected charging interval.
 
+### 2. RC Model and Curve Fitting
+The measured battery voltage was modeled using the prescribed first-order RC charging equation: 
+
+$$
+V(t)=V_{\text{max}}\left(1-e^{-t/\tau}\right)
+$$
+
+where $\tau=RC$ is the RC time constant. The maximum voltage was fixed at 3.6V based on the known maximum voltage of the battery dataset. 
+
+MATLAB's Curve Fitting Toolbox was used to perform a nonlinear least-squares fit between the measured voltage data and the exponential model. The fitted time constant was constrained to remain positive, and goodness-of-fit statistics were calculated to evaluate how well the model represented the measured charging profile. 
 
 ### Deliverables
 
