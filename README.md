@@ -30,7 +30,7 @@ The primary objective of this project is to develop a MATLAB-based model of a re
 
 
 ## Mathematical Model
-A first-order RC circuit was used to approximate the charging characteristics of a lithium-ion battery. The voltage profile was modeled using the exponential charging equation
+A first-order RC circuit was used to approximate the charging characteristics of a lithium-ion battery. The voltage profile was modeled using the exponential charging equation:
 
 <p align="center">
 
