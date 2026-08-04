@@ -86,7 +86,15 @@ Estimated resistive energy loss was calculated using the measured current and th
 
 ---
 
-### Results
+## Results
+
+### RC Model Fit
+The measured battery voltage was compared with the fitted first-order RC charging model. The model was fitted to the selected charging data using MATLAB's Curve Fitting Toolbox, with the maximum voltage set to the specified value for the battery dataset. 
+
+**Figure 1.** Measured baattery voltage and fitted first-order RC charging model during the selected charging cycle. 
+
+
+
 
 - Exponential charging curve
 - Experimental data comparison
@@ -113,33 +121,6 @@ Using the estimations of these equations and MATLAB tools, our results output th
 
 ## Future Improvements
 /* edit */
-
-
-/* note for later, delete in final */
-
-matlab tools used:
-- Curve Fitting Toolbox
-- Numerical Integration (`trapz`)
-- Numerical Differentiation (`gradient`)
-- Data Visualization
-- Subplots
-- Live Scripts
-- Matrix Operations
-- Vectorized Calculations
-
-learning outcomes: 
-This project demonstrates the application of:
-
-- MATLAB programming
-- RC circuit modeling
-- Battery charging analysis
-- Curve fitting techniques
-- Numerical calculus
-- Data visualization
-- Engineering data analysis
-
-/* end of note, delete in final */
-
 
 ## Authors
 
