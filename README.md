@@ -47,6 +47,9 @@ where $V_{\text{max}}$ is the maximum battery voltage and (RC) represents the sy
 ## Methodology
 
 ### 1. Data Preparation
+The lithium-ion battery cycling data provided by MathWorks was loaded into MATLAB and a single charging cycle was selected for analysis. Cycle 1 was used to avoid combining measurements from different stages of battery aging. 
+
+The charging portion of the cycle was isolated using the measured current, with positive current representing the charging phase. The corresponding time, voltage, and current measurements were extracted for analysis. Time was converted to elapsed seconds beginning at (t=0) for the selected charging interval.
 
 
 ### Deliverables
