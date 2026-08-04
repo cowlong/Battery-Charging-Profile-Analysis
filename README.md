@@ -32,13 +32,9 @@ The primary objective of this project is to develop a MATLAB-based model of a re
 ### Mathematical Model
 A first-order RC circuit was used to approximate the charging characteristics of a lithium-ion battery. The voltage profile was modeled using the exponential charging equation:
 
-<p align="center">
-
 $$
 V(t)=V_{\text{max}}\left(1-e^{-t/(RC)}\right)
 $$
-
-</p>
 
 where $V_{\text{max}}$ is the maximum battery voltage and (RC) represents the system time constant. MATLAB's Curve Fitting Toolbox was used to fit the exponential model to the measured battery voltage data and estimate the RC time constant that best represents the observed charging behavior.
 
