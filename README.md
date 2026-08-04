@@ -23,6 +23,7 @@ Real battery data is analyzed using MATLAB's Curve Fitting Toolbox, numerical di
 
 ### Objective
 The primary objective of this project is to determine how well a first-order RC model can represent the charging behavior of a real lithium-ion battery.
+
 The project analyzes experimental battery data to:
 - Fit an exponential charging model to measured voltage data
 - Evaluate the quality of the model using goodness-of-fit statistics
