@@ -44,9 +44,9 @@ where $V_{\text{max}}$ is the maximum battery voltage and (RC) represents the sy
 
 --- 
 
-## Results
+## Methodology
 
-/* insert results here with descriptions, including images*/ 
+### 1. Data Preparation
 
 
 ### Deliverables
