@@ -17,22 +17,14 @@ Use MATLAB to model a lithium-ion battery charging profile using an RC circuit a
 
 ## Project Overview
 
-This project uses MATLAB to model and analyze the charging behavior of a real lithium-ion battery. The battery charging profile is approximated using a first-order RC-circuit analog and an exponential charging model. 
+This project uses MATLAB to model and analyze the charging behavior of a real lithium-ion battery. The battery charging profile is approximated using a first-order RC-circuit analog and an exponential charging model. The measured voltage data is fitted to an exponential charging model using the Curve Fitting Toolbox, while voltage, current, and power data are analyzed throughout a charging cycle. 
 
-Real battery data is analyzed using MATLAB's Curve Fitting Toolbox, numerical differentiation, numerical integration, and data visualization tools. The analysis focuses on the relationship between voltage, current, power, charging time, and energy transfer during a battery charging cycle. 
+Numerical differentiation is used to examine the rate of voltage change, and numerical integration is used to calculate the total energy delivered to the battery. Charging time and estimated resistive energy losses are also calculated to evaluate the battery's charging performance. 
 
-### Objective
-The primary objective of this project is to determine how well a first-order RC model can represent the charging behavior of a real lithium-ion battery.
+The results are presented through MATLAB-generated plots, goodness-of-fit statistics, and a summary of key charging characteristics. The project demonstrates how circuit modeling, calculus, and MATLAB-based data analysis can be applied to real-world battery systems. 
 
-The project analyzes experimental battery data to:
-- Fit an exponential charging model to measured voltage data
-- Evaluate the quality of the model using goodness-of-fit statistics
-- Visualize voltage, current, and power throughout a charging cycle
-- Calculate the rate of voltage change using numerical differentation
-- Determine the time required to reach 80% and 100% charge
-- Calculate the total electrical energy delivered to the battery
-- Estimate energy lost through internal resistance
-- Interpret the charging behavior using engineering and calculus principles
+## Objective
+The primary objective of this project is to develop a MATLAB-based model of a real lithium-ion battery charging profile using a first-order RC-circuit analogy. The project aims to determine how effectively this simplified model represents the battery's measured charging behavior and to use the resulting model the characterize the charging process. 
 
 ## Mathematical Model
 A first-order RC circuit was used to approximate the charging characteristics of a lithium-ion battery. The voltage profile was modeled using the exponential charging equation
