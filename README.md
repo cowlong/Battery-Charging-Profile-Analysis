@@ -60,7 +60,29 @@ $$
 
 where $\tau=RC$ is the RC time constant. The maximum voltage was fixed at 3.6V based on the known maximum voltage of the battery dataset. 
 
-MATLAB's Curve Fitting Toolbox was used to perform a nonlinear least-squares fit between the measured voltage data and the exponential model. The fitted time constant was constrained to remain positive, and goodness-of-fit statistics were calculated to evaluate how well the model represented the measured charging profile. 
+MATLAB's Curve Fitting Toolbox was used to perform a nonlinear least-squares fit between the measured voltage data and the exponential model. The fitted time constant was constrained to remain positive, and goodness-of-fit statistics were calculated to evaluate how well the model represented the measured charging profile.
+
+### 3. Electrical Characteristics
+The voltage and current measurements were used to characterize the electrical behavior of the battery during the charging cycle. Instantaneous electrical power was calculated from the measured voltage and current using: 
+
+$$
+P(t)=V(t)I(t)
+$$
+
+The resulting voltage, current, and power data were plotted against time using MATLAB subplots. These plots provide a visual representation of how the electrical characteristics change throughout the charging process and allow different stages of the charging profile to be identified.
+
+### 4. Charging and Energy Analysis
+Numerical methods were used to evaluate key characteristics of the charging process. The rate of voltage change was calculated using numerical differentiation to determine how quickly the battery voltage changes throughout charging.
+
+The total electrical energy delivered to the battery was calculated by numerically integrating the power over time: 
+
+$$
+E=\int P(t),dt
+$$
+
+The MATLAB trapz function was used to approximate the area under the power-time curve. The charging data was also analyzed to determine the time required for the battery to reach 80% and 100% of its specified maximum voltage.
+
+Estimated resistive energy loss was calculated using the measured current and the battery's internal resistance.
 
 ### Deliverables
 
