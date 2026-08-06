@@ -89,7 +89,7 @@ The measured battery voltage was compared with the fitted first-order RC chargin
 
 <tr>
 <td width="20% align="center">
-<img src="Images/Measured Voltage and Fitted RC Model.png" width="180">
+<img src="Images/Measured Voltage and Fitted RC Model.png" width="500">
 </td>
 
 **Figure 1.** Measured battery voltage and fitted first-order RC charging model during the selected charging cycle. 
