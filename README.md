@@ -95,9 +95,10 @@ The measured battery voltage was compared with the fitted first-order RC chargin
 <b>Figure 1.</b> Measured Battery Voltage compared with the fitted first-order RC charging model
 </p>
 
-The fitted model produced an RC time constant of **0.22793 s**, with an $R^2$ value of **0.22936 V**. The relativity low $R^2$ value indicates that the first-order RC model does not closely represent the measured voltage data over the selected charging cycle. 
+The fitted model produced an RC time constant of **0.22793 s**, with an $R^2$ value of **0.22936** and an RMSE of **0.27328 V**. The relativity low $R^2$ value indicates that the first-order RC model does not closely represent the measured voltage data over the selected charging cycle. 
 
-The difference between the measured data and the fitted model demonstrates the limitations of representing a real lithium-ion battery using a simple first-order RC circuit. The model provides a simplified representation of the charging behavior but does not capture all of the characteristics present in the experimental data.
+The difference between the measured data and the fitted model demonstrates the limitations of representing a real lithium-ion battery using a simple first-order RC circuit.
+
 
 - Exponential charging curve
 - Experimental data comparison
