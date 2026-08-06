@@ -90,6 +90,7 @@ The measured battery voltage was compared with the fitted first-order RC chargin
 <p align="center"> 
 <img src="Images/Measured Voltage and Fitted RC Model.png" align="center" width="400">
 </p>
+
 **Figure 1.** Measured Battery Voltage compared with the fitted first-order RC charging model.
 
 - Exponential charging curve
