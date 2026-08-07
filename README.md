@@ -177,6 +177,21 @@ The charging-time analysis was also used to determine the time required to reach
 
 The results show how electrical energy is transferred during charging while a portion is dissipated through internal resistance. The charging process also becomes slower as the battery approaches its maximum voltage, resulting in a significant difference between the time required to reach 80% and 100% charge.
 
+### 4. CC-CV Phase Analysis
+The battery charging profile was separated into constant-current (CC) and constant-voltage (CV) phases based on the measured battery voltage and charging current. The CC-to-CV transition was identified when the battery voltage reached approximately 99.9% of the 3.6 V voltage set point. During the CC phase, the charging current remained relatively steady while the battery voltage increased. After the transition, the voltage remained near the set point while the charging current decreased during the CV phase.
+
+The voltage, current, power, and voltage rate of change were plotted against elapsed charging time to visualize the transition between the two phases. The red dashed line indicates the identified CC-to-CV transition.
+
+<p align="center"> 
+<img src="CC and CV.png" align="center" width="400">
+</p>
+<p align="center">
+<b>Figure 4.</b> Battery voltage, current, power, and voltage rate of change during the CC and CV charging phases.
+</p>
+
+The two phases were also modeled separately using exponential functions. The CC phase was modeled using an exponential voltage rise, while the CV phase was modeled using an exponential current decay. The resulting time constants, $R^2$ values, and RMSE values were used to evaluate the behavior of each phase.
+
+Power and energy were calculated separately for the CC and CV phases to compare their contributions to the overall charging process. The analysis also estimated the Joule losses and efficiency of each phase using the measured internal resistance.
 
 ### Model Access
 
