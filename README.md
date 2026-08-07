@@ -111,7 +111,7 @@ The resulting measurements were plotted as functions of elapsed time to visualiz
 
 <table>
   <tr>
-    <td><b>Voltage vs. Time</b></td>
+    <td><b>Voltage vs. Time</b> align="center" </td>
     <td><b>Current vs. Time</b></td>
     <td><b>Power vs. Time</b></td>
   </tr>
