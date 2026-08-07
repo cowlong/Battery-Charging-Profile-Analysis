@@ -185,6 +185,7 @@ The voltage, current, power, and voltage rate of change were plotted against ela
 <p align="center"> 
 <img src="CC and CV.png" align="center" width="400">
 </p>
+
 <p align="center">
 <b>Figure 4.</b> Battery voltage, current, power, and voltage rate of change during the CC and CV charging phases.
 </p>
