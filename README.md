@@ -127,29 +127,13 @@ The resulting measurements were plotted as functions of elapsed time to visualiz
 <b>Figure 2.</b> Voltage, current, and power measurements during the selected battery charging cycle.
 </p>
 
+The voltage initially increases from approximately 2.02 V to 3.56 B within the first 300 seconds. After reaching this initial peak, the voltage continues to fluctuate before eventually settling near 2.0 V toward the end of the measured cycle. 
 
-- Exponential charging curve
-- Experimental data comparison
-- Goodness-of-fit metrics
+The current initially increases to approximately 6.54 A and remains relatively constant for the first 300 seconds. It then decreases through several stages before eventually becoming negative, reaching approximately -4.40 A and remaining near this value for a portion of the cycle. Near the end of the cycle, the current rises back toward zero. 
 
-Using calculus and electrical engineering principles to evaluate charging performance.. 
-- \frac{dV}{dT} , used to determine how quickly the battery voltage changes during charging
-- E = \int P(t)\,dt , used to calculate the total energy being delivered
-- P=I^2R , used to calculate estimated resistive loss
+Because power is calculated from the measured voltage and current, its behavior follows changes in both quantities. The power initially reaches approximately 23.47 W before decreasing as the current changes. Later in the cycle, the power becomes negative when the measured current becomes negative, indicating that the direction of electrical power flow has changed relative to the initial portion of the cycle. 
 
-Using the estimations of these equations and MATLAB tools, our results output the values in the table below. 
-
-| Metric | Value |
-|---------|---------|
-| Maximum Voltage | _ V |
-| RC Time Constant | _ s |
-| Time to 80% Charge | _ s |
-| Time to Full Charge | _ s |
-| Total Energy Delivered | _ J |
-| Resistive Energy Loss | _ J |
-| R² Value | _ |
-
-
+These measurements provide insight into the battery's electrical behavior throughout the cycle. The changes in voltage and current affect the instantaneous power delivered to or from the battery, making the power profile useful for evaluating energy transfer during charging and discharging. The transition from positive to negative current also demonstrates that the selected cycle contains both charging and non-charging portions, which is important when isolating the charging phase for further analysis. These measurements are used in later calculations of charging rate, energy delivery, and resistive losses. 
 
 ## Future Improvements
 /* edit */
