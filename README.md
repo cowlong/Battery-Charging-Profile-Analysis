@@ -140,8 +140,27 @@ $$
 \frac{dV}{dt}
 $$
 
-Because the experimental voltage data consists of discrete measurements, MATLAB's 'gradient' function was used to estimate the voltage rate of change at each measured time point. 
+Because the experimental voltage data consists of discrete measurements, MATLAB's 'gradient' function was used to estimate the voltage rate of change at each measured time point throughout the charging stage. The charging data was divided into four stages to examine how the voltage response changed as the battery progressed through the charging process.
 
+<td align="center">
+<table>
+  <tr>
+    <td align="center"><b>Stage 1</b></td>
+    <td align="center"><b>Stage 2</b></td>
+    <td align="center"><b>Stage 3</b></td>
+    <td align="center"><b>Stage 4</b></td>
+  </tr>
+  <tr>
+    <td><img src="Images/Stage1.png" width="500"/></td>
+    <td><img src="Images/Stage2.png" width="500"/></td>
+    <td><img src="Images/Stage3.png" width="500"/></td>
+    <td><img src="Images/Stage4.png" width="500"/></td>
+  </tr>
+</table>
+</td>
+<p align="center">
+<b>Figure 3.</b> Rate of voltage change across the four charging stages. 
+</p>
 
 
 ## Future Improvements
