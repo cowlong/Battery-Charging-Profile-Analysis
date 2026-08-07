@@ -178,7 +178,10 @@ The charging-time analysis was also used to determine the time required to reach
 
 The results show how electrical energy is transferred during charging while a portion is dissipated through internal resistance. The charging process also becomes slower as the battery approaches its maximum voltage, resulting in a significant difference between the time required to reach 80% and 100% charge.
 
+---
+
 ## Summary
+
 | Metric | Value |
 |---|---:|
 | Maximum Voltage | 3.60 V |
