@@ -171,6 +171,6 @@ Because the experimental voltage data consists of discrete measurements, MATLAB'
 | Name | School | Major |
 |-------|-------|-------|
 | Duc Thuan Nguyen | UC San Diego | Electrical Engineering |
-| - | - | - |
+| Matthew Garcia | Cal State Long Beach | Computer Engineering |
 | - | - | - |
 | Karen Portillo | UC Irvine | Electrical Engineering |
