@@ -109,7 +109,7 @@ $$
 The resulting measurements were plotted as functions of elapsed time to visualize the electrical behavior of the battery throughout the cycle.
 
 
-<td width="20% align="center">
+<td align="center">
 <table>
   <tr>
     <td><b>Voltage vs. Time</b></td>
@@ -117,9 +117,9 @@ The resulting measurements were plotted as functions of elapsed time to visualiz
     <td><b>Power vs. Time</b></td>
   </tr>
   <tr>
-    <td><img src="Images/Voltage vs Time.png" width="200"/></td>
-    <td><img src="Images/Current vs Time.png" width="200"/></td>
-    <td><img src="Images/Power vs Time.png" width="200"/></td>
+    <td><img src="Images/Voltage vs Time.png" width="300"/></td>
+    <td><img src="Images/Current vs Time.png" width="300"/></td>
+    <td><img src="Images/Power vs Time.png" width="300"/></td>
   </tr>
 </table>
 </td>
