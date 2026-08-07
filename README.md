@@ -178,6 +178,11 @@ The charging-time analysis was also used to determine the time required to reach
 
 The results show how electrical energy is transferred during charging while a portion is dissipated through internal resistance. The charging process also becomes slower as the battery approaches its maximum voltage, resulting in a significant difference between the time required to reach 80% and 100% charge.
 
+
+### Model Access
+
+To access the battery charging model and results, clone the GitHub repository to your local machine using <mark>git clone</mark>. Navigate to the <mark>MATLAB Live Script</mark> folder and open <mark>Batter_Analytical_Computations.mlx</mark>. The MATLAB Live Script contains the instructions, calculations, and analysis used in our model. The resulting graphs can be viewed directly within the Live Script after opening and running the corresponding sections.
+
 ---
 
 ## Summary
