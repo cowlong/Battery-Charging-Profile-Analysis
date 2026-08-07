@@ -109,10 +109,18 @@ $$
 The resulting measurements were plotted as functions of elapsed time to visualize the electrical behavior of the battery throughout the cycle.
 
 
-| Voltage vs. Time | Current vs. Time | Power vs. Time |
-| :---: | :---: | :---: |
-| ![Alt Text 1](Images/Voltage vs Time.png) | ![Alt Text 2](Images/Current vs Time.png) | ![Alt Text 3](Images/Power vs Time.png) |
-
+<table>
+  <tr>
+    <td><b>Voltage vs. Time</b></td>
+    <td><b>Current vs. Time</b></td>
+    <td><b>Power vs. Time</b></td>
+  </tr>
+  <tr>
+    <td><img src="Images/Voltage vs Time.png" width="200"/></td>
+    <td><img src="Images/Current vs Time.png" width="200"/></td>
+    <td><img src="Images/Power vs Time.png" width="200"/></td>
+  </tr>
+</table>
 
 
 - Exponential charging curve
