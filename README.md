@@ -183,7 +183,7 @@ The battery charging profile was separated into constant-current (CC) and consta
 The voltage, current, power, and voltage rate of change were plotted against elapsed charging time to visualize the transition between the two phases. The red dashed line indicates the identified CC-to-CV transition.
 
 <p align="center"> 
-<img src="CC and CV.png" align="center" width="400">
+<img src="Images/CC and CV.png" align="center" width="400">
 </p>
 
 <p align="center">
