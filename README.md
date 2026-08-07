@@ -88,7 +88,7 @@ Estimated resistive energy loss was calculated using the measured current and th
 The measured battery voltage was compared with the fitted first-order RC charging model. The model was fitted to the selected charging data using MATLAB's Curve Fitting Toolbox, with the maximum voltage set to the specified value for the battery dataset. 
 
 <p align="center"> 
-<img src="Images/Measured Voltage RC Model.png" align="center" width="400">
+<img src="Images/Measured Voltage and Fitted RC Model.png" align="center" width="400">
 </p>
 <p align="center">
 <b>Figure 1.</b> Measured Battery Voltage compared with the fitted first-order RC charging model.
