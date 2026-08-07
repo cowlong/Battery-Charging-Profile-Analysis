@@ -176,8 +176,22 @@ The charging-time analysis was also used to determine the time required to reach
 <b>Figure 3.2.</b> Estimated energy loss during the charging process.
 </p>
 
-## Future Improvements
-/* edit */
+The results show how electrical energy is transferred during charging while a portion is dissipated through internal resistance. The charging process also becomes slower as the battery approaches its maximum voltage, resulting in a significant difference between the time required to reach 80% and 100% charge.
+
+## Summary
+| Metric | Value |
+|---|---:|
+| Maximum Voltage | 3.60 V |
+| RC Fit Time Constant | 0.22793 s |
+| Analytical Time Constant | 1.645 s |
+| Time to 80% Charge | 2.6 s |
+| Time to Full Charge | 1,246 s |
+| Total Energy Delivered | 15,751.77 J |
+| Resistive Energy Loss | 331.74 J |
+| $R^2$ | 0.22936 |
+| RMSE | 0.27328 V |
+
+Overall, the results demonstrate that they battery's charging behavior changes significantly throughout the charging process. The voltage increases most rapidly during the early stages before approaching a stable maximum voltage. At the same time, current and power decrease during the later portion of charging, reducing the rate of energy transfer and resistive energy loss. The numerical energy and rate-of-change analyses provide additional measures of charging performance beyond the voltage profile alone.
 
 ## Authors
 
