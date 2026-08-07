@@ -15,14 +15,6 @@ Use MATLAB to model a lithium-ion battery charging profile using an RC circuit a
 </tr>
 </table>
 
-## Authors
-
-| Name | School | Major |
-|-------|-------|-------|
-| Duc Thuan Nguyen | UC San Diego | Electrical Engineering |
-| Matthew Garcia | Cal State Long Beach | Computer Engineering |
-| - | - | - |
-| Karen Portillo | UC Irvine | Electrical Engineering |
 
 ### Project Overview
 
