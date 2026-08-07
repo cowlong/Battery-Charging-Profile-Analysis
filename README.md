@@ -141,14 +141,20 @@ The current initially increases to approximately 6.54 A and remains relatively c
 
 Because power is calculated from the measured voltage and current, its behavior follows changes in both quantities. The power initially reaches approximately 23.47 W before decreasing as the current changes. Later in the cycle, the power becomes negative when the measured current becomes negative, indicating that the direction of electrical power flow has changed relative to the initial portion of the cycle. 
 
-### 3. Charging Rate
-The rate of change of battery voltage was analyzed using the numerical derivative 
+### 3. Energy and Charging Performance
+Charging performance was evaluated by calculating the electrical energy delivered to the battery and the energy dissipated through internal resistance. Electrical power was calculated as
 
 $$
-\frac{dV}{dt}
+P(t)=V(t)I(t)
 $$
 
-Because the experimental voltage data consists of discrete measurements, MATLAB's 'gradient' function was used to estimate the voltage rate of change at each measured time point throughout the charging stage. The charging data was divided into four stages to examine how the voltage response changed as the battery progressed through the charging process.
+and energy was determined from the accumulated power over time. Resistive losses were estimated using
+
+$$
+P_{\text{loss}}=I^2R
+$$
+
+The charging-time analysis was also used to determine the time required to reach 80% and 100% of the target voltage.
 
 <td align="center">
 <table>
@@ -167,8 +173,9 @@ Because the experimental voltage data consists of discrete measurements, MATLAB'
 </table>
 </td>
 <p align="center">
-<b>Figure 3.</b> Rate of voltage change across the four charging stages. 
+<b>Figure 3.</b> Electrical energy delivered to the battery over time during the charging stages.
 </p>
+
 
 
 ## Future Improvements
