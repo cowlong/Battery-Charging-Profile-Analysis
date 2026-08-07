@@ -125,6 +125,7 @@ The resulting measurements were plotted as functions of elapsed time to visualiz
 </td>
 
 
+
 - Exponential charging curve
 - Experimental data comparison
 - Goodness-of-fit metrics
