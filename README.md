@@ -133,7 +133,23 @@ The current initially increases to approximately 6.54 A and remains relatively c
 
 Because power is calculated from the measured voltage and current, its behavior follows changes in both quantities. The power initially reaches approximately 23.47 W before decreasing as the current changes. Later in the cycle, the power becomes negative when the measured current becomes negative, indicating that the direction of electrical power flow has changed relative to the initial portion of the cycle. 
 
-These measurements provide insight into the battery's electrical behavior throughout the cycle. The changes in voltage and current affect the instantaneous power delivered to or from the battery, making the power profile useful for evaluating energy transfer during charging and discharging. The transition from positive to negative current also demonstrates that the selected cycle contains both charging and non-charging portions, which is important when isolating the charging phase for further analysis. These measurements are used in later calculations of charging rate, energy delivery, and resistive losses. 
+### 3. Charging Rate
+The rate of change of battery voltage was analyzed using the numerical derivative 
+
+$$
+\frac{dV}{dt}
+$$
+
+Because the experimental voltage data consists of discrete measurements, MATLAB's 'gradient' function was used to estimate the voltage rate of change at each measured time point. 
+
+
+<p align="center"> 
+<img src="Images/Measured Voltage and Fitted RC Model.png" align="center" width="400">
+</p>
+
+<p align="center">
+<b>Figure 1.</b> Measured Battery Voltage compared with the fitted first-order RC charging model.
+</p>
 
 ## Future Improvements
 /* edit */
