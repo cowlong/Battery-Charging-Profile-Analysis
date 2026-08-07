@@ -170,7 +170,7 @@ The charging-time analysis was also used to determine the time required to reach
 
 
 <p align="center"> 
-<img src="Images/Energy Lost vc Time.png" align="center" width="400">
+<img src="Images/Energy Lost vs Time.png" align="center" width="400">
 </p>
 <p align="center">
 <b>Figure 3.2.</b> Estimated energy loss during the charging process.
