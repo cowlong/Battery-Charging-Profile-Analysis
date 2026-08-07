@@ -165,10 +165,16 @@ The charging-time analysis was also used to determine the time required to reach
 </table>
 </td>
 <p align="center">
-<b>Figure 3.</b> Electrical energy delivered to the battery over time during the charging stages.
+<b>Figure 3.1.</b> Electrical energy delivered to the battery over time during the charging stages.
 </p>
 
 
+<p align="center"> 
+<img src="Images/Energy Lost vc Time.png" align="center" width="400">
+</p>
+<p align="center">
+<b>Figure 3.2.</b> Estimated energy loss during the charging process.
+</p>
 
 ## Future Improvements
 /* edit */
@@ -179,5 +185,5 @@ The charging-time analysis was also used to determine the time required to reach
 |-------|-------|-------|
 | Duc Thuan Nguyen | UC San Diego | Electrical Engineering |
 | Matthew Garcia | Cal State Long Beach | Computer Engineering |
-| - | - | - |
+| Shreya Pandey | UC Los Angeles | Chemical Engineering |
 | Karen Portillo | UC Irvine | Electrical Engineering |
