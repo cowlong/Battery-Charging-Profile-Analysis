@@ -111,7 +111,7 @@ The resulting measurements were plotted as functions of elapsed time to visualiz
 
 | Voltage vs. Time | Current vs. Time | Power vs. Time |
 | :---: | :---: | :---: |
-| !(Images/Voltage vs Time.png) | !(Images/Current vs Time.png) | !(Images/Power vs Time.png) |
+| (Images/Voltage vs Time.png) | (Images/Current vs Time.png) | (Images/Power vs Time.png) |
 
 
 
