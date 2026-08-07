@@ -195,7 +195,7 @@ Power and energy were calculated separately for the CC and CV phases to compare 
 
 ### Model Access
 
-To access the battery charging model and results, clone the GitHub repository to your local machine using `git clone`. Navigate to the `MATLAB Live Script` folder and open `Batter_Analytical_Computations.mlx`. The MATLAB Live Script contains the instructions, calculations, and analysis used in our model. The resulting graphs can be viewed directly within the Live Script after opening and running the corresponding sections.
+To access the battery charging model and results, clone the GitHub repository to your local machine using `git clone`. Navigate to the `MATLAB Live Script` folder and open `Battery10FINALE.mlx`. The MATLAB Live Script contains the instructions, calculations, and analysis used in our model. The resulting graphs can be viewed directly within the Live Script after opening and running the corresponding sections.
 
 ---
 
