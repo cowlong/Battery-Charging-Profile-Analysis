@@ -84,7 +84,7 @@ Estimated resistive energy loss was calculated using the measured current and th
 
 ## Results
 
-### RC Model Fit
+### 1. RC Model Fit
 The measured battery voltage was compared with the fitted first-order RC charging model. The model was fitted to the selected charging data using MATLAB's Curve Fitting Toolbox, with the maximum voltage set to the specified value for the battery dataset. 
 
 <p align="center"> 
@@ -98,6 +98,21 @@ The measured battery voltage was compared with the fitted first-order RC chargin
 The fitted model produced an RC time constant of **0.22793 s**, with an $R^2$ value of **0.22936** and an RMSE of **0.27328 V**. The relativity low $R^2$ value indicates that the first-order RC model does not closely represent the measured voltage data over the selected charging cycle. 
 
 The difference between the measured data and the fitted model demonstrates the limitations of representing a real lithium-ion battery using a simple first-order RC circuit.
+
+### 2. Voltage, Current, and Power
+The voltage, current, and power measurements were analyzed over the selected battery charging cycle. Electrical power was calculated from the measured voltage and current using:
+
+$$
+P(t)=V(t)I(t)
+$$
+
+The resulting measurements were plotted as functions of elapsed time to visualize the electrical behavior of the battery throughout the cycle.
+
+
+| Voltage vs. Time | Current vs. Time | Power vs. Time |
+| :---: | :---: | :---: |
+| ![Alt Text 1](path/to/image1.png) | ![Alt Text 2](path/to/image2.png) | ![Alt Text 3](path/to/image3.png) |
+
 
 
 - Exponential charging curve
