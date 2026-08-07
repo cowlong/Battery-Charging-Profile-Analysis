@@ -143,13 +143,6 @@ $$
 Because the experimental voltage data consists of discrete measurements, MATLAB's 'gradient' function was used to estimate the voltage rate of change at each measured time point. 
 
 
-<p align="center"> 
-<img src="Images/Measured Voltage and Fitted RC Model.png" align="center" width="400">
-</p>
-
-<p align="center">
-<b>Figure 1.</b> Measured Battery Voltage compared with the fitted first-order RC charging model.
-</p>
 
 ## Future Improvements
 /* edit */
@@ -158,7 +151,7 @@ Because the experimental voltage data consists of discrete measurements, MATLAB'
 
 | Name | School | Major |
 |-------|-------|-------|
-| - | - | - |
+| Duc Thuan Nguyen | UC San Diego | Electrical Engineering |
 | - | - | - |
 | - | - | - |
 | Karen Portillo | UC Irvine | Electrical Engineering |
