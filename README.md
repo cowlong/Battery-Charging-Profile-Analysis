@@ -189,7 +189,7 @@ The voltage, current, power, and voltage rate of change were plotted against ela
 <b>Figure 4.</b> Battery voltage, current, power, and voltage rate of change during the CC and CV charging phases.
 </p>
 
-The two phases were also modeled separately using exponential functions. The CC phase was modeled using an exponential voltage rise, while the CV phase was modeled using an exponential current decay. The resulting time constants, $R^2$ values, and RMSE values were used to evaluate the behavior of each phase.
+The phases were also modeled separately using exponential functions. The CC phase was modeled using an exponential voltage rise, while the CV phase was modeled using an exponential current decay. The resulting time constants, $R^2$ values, and RMSE values were used to evaluate the behavior of each phase.
 
 Power and energy were calculated separately for the CC and CV phases to compare their contributions to the overall charging process. The analysis also estimated the Joule losses and efficiency of each phase using the measured internal resistance.
 
